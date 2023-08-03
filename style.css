@@ -85,6 +85,18 @@ body {
     font-size: 25px;
     color: rgb(175, 11, 79);
 }
+#ClickTheLink {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+#LSTitle {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#LSCover {
+    width: 500px;
+    height: 500px;
+}
 /*CSS 반응형*/
 @media(max-width:800px) 
 {
@@ -155,6 +167,19 @@ body {
         margin-bottom: 10px;
     }
     #LoIns {
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(175, 11, 79);
     }
+    #ClickTheLink {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #LSTitle {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    #LSCover {
+        width: 250px;
+        height: 250px;
+    }
+}

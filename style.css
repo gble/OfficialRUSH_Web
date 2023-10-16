@@ -97,6 +97,11 @@ body {
     width: 500px;
     height: 500px;
 }
+
+#DOJOSIOCover {
+    width: 500px;
+    height: 500px;
+}
 /*CSS 반응형*/
 @media(max-width:800px) 
 {
@@ -179,6 +184,10 @@ body {
         margin-bottom: 10px;
     }
     #LSCover {
+        width: 250px;
+        height: 250px;
+    }
+    #DOJOSIOCover {
         width: 250px;
         height: 250px;
     }

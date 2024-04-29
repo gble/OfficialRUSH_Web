@@ -35,6 +35,10 @@ body {
     font-size: 50px;
     margin-left: 30px;
 }
+#Nav_Live {
+    font-size: 50px;
+    margin-left: 30px;
+}
 .MainView {
     margin-top: 200px;
     margin-left: 30px;
@@ -102,13 +106,17 @@ body {
     width: 500px;
     height: 500px;
 }
+#Gyeongin_Cover {
+    width: 700px;
+    height: 700px;
+}
 /*CSS 반응형*/
 @media(max-width:800px) 
 {
     .TopNav { /*nav에 적용될 반응형*/
         position: fixed;
         padding: 1px;
-        font-size: 35px;
+        font-size: 30px;
         float: center;
         background-color:rgb(0, 0, 0);
         width:100%;
@@ -116,12 +124,16 @@ body {
         top: 0;
     }
     #Nav_Album {
-        font-size: 30px;
-        margin-left: 15px;
+        font-size: 25px;
+        margin-left: 10px;
     }
     #Nav_Int {
-        font-size: 30px;
-        margin-left: 15px;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    #Nav_Live {
+        font-size: 25px;
+        margin-left: 10px;
     }
     .MainView {
         margin-top: 180px;
@@ -190,5 +202,9 @@ body {
     #DOJOSIOCover {
         width: 250px;
         height: 250px;
+    }
+    #Gyeongin_Cover {
+        width: 350px;
+        height: 350px;
     }
 }
